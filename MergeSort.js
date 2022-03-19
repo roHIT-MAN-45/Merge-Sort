@@ -16,6 +16,13 @@ Pseudocode
 ⚡ If the value in the first array is larger than the value in the second array, push the value in the second array into our results and move on to the next value in the second array.
 */
 
+/*
+Time Complexity(Best) = O(n log n)
+Time Complexity(Average) = O(n log n)
+Time Complexity(Worst) = O(n log n)
+Space Complexity = O(n)
+*/
+
 function merge(arr1, arr2) {
   let i = 0;
   let j = 0;
